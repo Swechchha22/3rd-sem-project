@@ -1,0 +1,107 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #f0f2f5;
+    color: #1c1e21;
+
+}
+
+main {
+    height: 85vh;
+    position: relative;
+    margin: 0 auto;
+}
+
+footer {
+    height: 15vh;
+    background-color: #ffffffff;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: (-50%,-50%);
+
+}
+
+.col-logo{
+    text-align: center;
+    padding: 10%;
+
+}
+
+.col-form{
+    text-align: center;
+    max-width: 80%;
+
+}
+
+.col-logo img{
+    max-width: 300px;
+
+}
+
+.col-logo h2{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 30px;
+    line-height: 16px;
+
+}
+
+.col-form .form-container{
+    background-color: #ffffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 30px 50px;
+
+}
+
+.col-form .form-container input, .col-form .form-container .btn-login{
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+    font-size: 16px ;
+}
+
+.col-form .form-container input{
+    border: 1 px solid #dddfe2;
+    color: #1d2129;
+    padding: 0 8px;
+    outline: none;
+}
+
+.col-form .form-container input:focus{
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    
+}
+
+.col-form .form-container .btn-login{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 0 16px;
+    color: #ffffffff;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+
+.col-form .form-container a{
+
+}
